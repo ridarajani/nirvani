@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-light: #FCFAEF;
+  --color-dark: #2B2B2B;
+  --color-primary: #778773;
+  --color-secondary: #EBDFCC;
+  --color-accent: #9D9A83;
+  --font-gabarito: var(--font-gabarito-face), 'Gabarito', sans-serif;
+  --font-belle: var(--font-belle-face), serif;
+  --text-h1: 78px;
+  --text-h2: 64px;
+  --text-h3: 56px;
+  --text-h4: 48px;
+  --text-h5: 36px;
+  --text-h6: 24px;
+  --text-subtitle: 20px;
+  --text-body: 20px;
+  --text-label: 18px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-light);
+  color: var(--color-dark);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-belle-face), serif;
+}
+
+/* Brand strip infinite scroll animation - fast right, slow left */
+@keyframes scroll-right-left {
+  0% { transform: translateX(0); }
+  12% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-scroll-left {
+  animation: scroll-right-left 18s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FCFAEF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #778773;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #667762;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #778773 #FCFAEF;
+}

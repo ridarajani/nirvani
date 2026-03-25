@@ -1,0 +1,25 @@
+/* [project]/src/lib/belle_5db1b090.module.css [app-client] (css) */
+@font-face {
+  font-family: belle;
+  src: url("../media/BELLE_Regular_BF6904838838b0f-s.p.c9b518e7.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: belle Fallback;
+  src: local(Arial);
+  ascent-override: 104.69%;
+  descent-override: 31.32%;
+  line-gap-override: 0.0%;
+  size-adjust: 87.31%;
+}
+
+.belle_5db1b090-module__bRwn5q__className {
+  font-family: belle, belle Fallback;
+}
+
+.belle_5db1b090-module__bRwn5q__variable {
+  --font-belle-face: "belle", "belle Fallback";
+}
+
+/*# sourceMappingURL=src_lib_belle_5db1b090_module_css_bad6b30c._.single.css.map*/
