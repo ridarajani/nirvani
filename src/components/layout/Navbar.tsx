@@ -31,7 +31,7 @@ export default function Navbar({ variant = "hero" }: NavbarProps) {
 
         <div className="relative w-[100px] h-[126px] flex items-center justify-center shrink-0">
           <Image
-            src="/images/logo-hero1.png"
+            src="/nirvani/images/logo-hero1.png"
             alt="Nirvani Logo"
             width={90}
             height={100}
@@ -52,7 +52,7 @@ export default function Navbar({ variant = "hero" }: NavbarProps) {
       <div className="flex md:hidden items-center justify-between py-4 px-6">
         <div className="relative w-[60px] h-[75px] shrink-0">
           <Image
-            src="/images/logo-hero1.png"
+            src="/nirvani/images/logo-hero1.png"
             alt="Nirvani Logo"
             width={60}
             height={75}

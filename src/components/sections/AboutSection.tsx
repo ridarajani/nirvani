@@ -50,7 +50,7 @@ export default function AboutSection() {
             {/* Decorative circle - behind image, outside overflow-hidden */}
             <div className="absolute right-0 bottom-[50px] translate-x-1/2 md:translate-x-3/4 w-[200px] h-[200px] md:w-[353px] md:h-[353px] z-0">
               <Image
-                src="/images/ellipse-stroke.png"
+                src="/nirvani/images/ellipse-stroke.png"
                 alt=""
                 fill
                 className="object-contain"
@@ -64,7 +64,7 @@ export default function AboutSection() {
                 }`}
               >
                 <Image
-                  src="/images/about-image.png"
+                  src="/nirvani/images/about-image.png"
                   alt="Healing scene"
                   fill
                   className="object-cover"

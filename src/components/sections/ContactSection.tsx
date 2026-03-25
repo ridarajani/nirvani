@@ -12,7 +12,7 @@ export default function ContactSection() {
       {/* Decorative background */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/images/contactus-background.png"
+        src="/nirvani/images/contactus-background.png"
         alt=""
         className="absolute inset-0 w-full h-full object-cover pointer-events-none opacity-0.1"
       />
@@ -27,7 +27,7 @@ export default function ContactSection() {
       {/* Bottom left image - half in contact, half in footer */}
       <div className="hidden md:block absolute left-0 bottom-0 translate-y-1/4 w-[494px] h-[494px] z-20">
         <Image
-          src="/images/contact-image2.png"
+          src="/nirvani/images/contact-image2.png"
           alt="Meditation"
           fill
           className="object-cover"

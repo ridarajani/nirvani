@@ -35,7 +35,7 @@ export default function StickyNav() {
 
         <div className="relative w-[50px] h-[45px] shrink-0">
           <Image
-            src="/images/layer.png"
+            src="/nirvani/images/layer.png"
             alt="Nirvani"
             fill
             className="object-contain"
@@ -59,7 +59,7 @@ export default function StickyNav() {
       <div className="flex md:hidden items-center justify-between py-3 px-6">
         <div className="relative w-[40px] h-[36px] shrink-0">
           <Image
-            src="/images/layer.png"
+            src="/nirvani/images/layer.png"
             alt="Nirvani"
             fill
             className="object-contain"

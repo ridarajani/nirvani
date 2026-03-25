@@ -9,7 +9,7 @@ export default function Footer() {
         {/* Logo */}
         <div className="relative w-[150px] h-[190px]">
           <Image
-            src="/images/footer-logo.png"
+            src="/nirvani/images/footer-logo.png"
             alt="Nirvani"
             fill
             unoptimized
@@ -97,7 +97,7 @@ export default function Footer() {
         <div className="flex justify-center">
           <div className="relative w-[205px] h-[258px]">
             <Image
-              src="/images/footer-logo.png"
+              src="/nirvani/images/footer-logo.png"
               alt="Nirvani"
               fill
               unoptimized
