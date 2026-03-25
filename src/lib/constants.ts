@@ -8,7 +8,6 @@ export const NAV_LINKS = [
 export const BASE_PATH = "/nirvani";
 
 export const SOCIAL_LINKS = [
-  { label: "Facebook", icon: `${BASE_PATH}/images/facebook-f.png`, href: "#" },
   { label: "Instagram", icon: `${BASE_PATH}/images/instagram.png`, href: "https://instagram.com/nirvaniyogaandsound" },
   { label: "TikTok", icon: `${BASE_PATH}/images/youtube.png`, href: "https://tiktok.com/@nirvanisoundandvibration" },
 ] as const;

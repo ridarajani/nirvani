@@ -88,10 +88,10 @@ function MethodStep({
         />
       </div>
       <div className="relative flex flex-col gap-5">
-        <span className="absolute -left-[18px] top-[-7px] font-gabarito font-semibold text-h2 text-secondary uppercase">
+        <span className="absolute -left-[18px] top-[-7px] font-gabarito font-semibold text-h2 text-secondary uppercase z-0">
           {step.num}
         </span>
-        <h3 className="text-h4 text-dark">{step.title}</h3>
+        <h3 className="text-h4 text-dark relative z-10">{step.title}</h3>
         <p className="font-gabarito font-normal text-body text-dark leading-[1.4]">
           {step.desc}
         </p>
