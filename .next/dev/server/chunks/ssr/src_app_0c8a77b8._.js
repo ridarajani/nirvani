@@ -1,7 +1,7 @@
 module.exports = [
 "[project]/src/app/icon.png (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/icon.eb73cba2.png");}),
+__turbopack_context__.v("/nirvani/_next/static/media/icon.eb73cba2.png");}),
 "[project]/src/app/icon.png.mjs { IMAGE => \"[project]/src/app/icon.png (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 

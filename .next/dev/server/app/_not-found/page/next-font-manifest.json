@@ -1,0 +1,11 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/src/app/_not-found/page": [
+      "static/media/Gabarito_VariableFont_wght-s.p.4baf211e.ttf",
+      "static/media/BELLE_Regular_BF6904838838b0f-s.p.c9b518e7.ttf"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

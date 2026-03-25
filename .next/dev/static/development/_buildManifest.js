@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/nirvani//_next/:path+",
+        "destination": "/nirvani/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
